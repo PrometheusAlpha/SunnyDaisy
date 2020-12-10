@@ -43,6 +43,7 @@ body p, body ul {
 h1 {
   font-size: calc(15px + 8vw) !important;
   margin: 0;
+  line-height: calc(20px + 8vw);
   font-weight: 700;
 }
 
@@ -178,12 +179,12 @@ header div a:hover {
   transition: .2s ease-in-out;
 }
 
-.intro a:hover > i {
+.intro a:hover > svg {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-.intro i {
+.intro svg {
   margin-left: 10px;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
@@ -250,28 +251,16 @@ header div a:hover {
           justify-content: start;
 }
 
-.contact i {
-  font-size: calc(8px+1vw);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.contact i::before {
-  background-color: black;
-  padding: 10px;
-  border-radius: 50%;
-}
-
 .contact a {
+  width: 50px;
+  height: 50px;
   position: relative;
   color: white;
   display: inline-block;
   text-align: center;
-  background-color: #aad;
-  border-radius: 50%;
+  background-color: white;
+  -webkit-clip-path: circle(48% at 50% 50%);
+          clip-path: circle(48% at 50% 50%);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
