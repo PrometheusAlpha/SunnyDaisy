@@ -198,45 +198,6 @@ header div a:hover {
   top: 15px;
 }
 
-.grid {
-  width: 100vw;
-  height: 60vh;
-  line-height: 3rem;
-  padding-left: 5rem;
-}
-
-.grid a {
-  color: white;
-}
-
-.grid a i {
-  font-size: calc(36px + 2vw);
-}
-
-.grid .grid__element {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.grid .grid__element p {
-  margin: 0;
-  font-size: calc(18px + 1vw);
-}
-
-.grid .grid__element i {
-  border-radius: 15px;
-  background: #2b2b2b;
-  background: linear-gradient(135deg, #2b2b2b 0%, #232323 100%);
-  width: 70px;
-  padding: 22px 0;
-  text-align: center;
-  margin: 0 2vw 0 0;
-}
-
 .about {
   width: 100vw;
   height: 100vh;
@@ -260,12 +221,6 @@ header div a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   height: 40vh;
   margin-bottom: 30px;
 }
@@ -322,14 +277,6 @@ header div a:hover {
   .grid a:hover {
     position: relative;
     top: 15px;
-  }
-  #center-image {
-    -webkit-animation: persp 0.1s linear;
-            animation: persp 0.1s linear;
-  }
-  .Hero-image {
-    -webkit-animation: fade 0.1s infinite;
-            animation: fade 0.1s infinite;
   }
   header div {
     -webkit-box-orient: vertical;
